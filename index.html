@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Goodwin CMST385 Projects</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div id="wrapper">
+	<div class="row">
+		<div class="col-12">
+        		<h1>Landmarks Around the World</h1>			
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+            		<div id="thumbnails">
+            			<img src="img/Fuji.jpg" onmouseover="caption(this.text)" id="image1" onclick="mark(this.id)" width="19.375%" height="19.5%" alt="Mount Fuji is actually three vulcanoes in one!" />
+                		<img src="img/Niagara.jpg" onmouseover="caption(this.text)" id="image2" onclick="mark(this.id)" width="19.375%" height="19.5%" alt="Niagara Falls is one of North Americas most recognizable waterfalls!"/>
+                		<img src="img/Parthenon.jpg" onmouseover="caption(this.text)" id="image3" onclick="mark(this.id)" width="19.375%" height="19.5%" alt="The Parthenon was built in 447 BC!" />
+                		<img src="img/BarrierReef.jpg" onmouseover="caption(this.text)" id="image4" onclick="mark(this.id)" width="19.375%" height="19.5%" alt="The Great Barrier Reef is further out than you would think taking up to two hours on a boat to get to it!" />
+                		<img src="img/Arches.jpg" onmouseover="caption(this.text)" id="image5" onclick="mark(this.id)" width="19.375%" height="19.5%" alt="Arches National Park has the densest concentration of natural stone arches in the world with 2000 recorded arches!" />     
+    			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div id="mainImage">
+                		<img id="largeImage" src="img/Fuji.jpg" width="100%" height="100%" alt="">
+    			</div>
+		</div>
+	</div>
+   	<div class="row">
+		<div class="col-12">
+			<div class="caption">
+               			<p id="cap"></p>
+    			</div>
+		</div>
+	</div>
+</div>
+<script src="js/image-gallery.js"></script>
+</body>
+</html>
